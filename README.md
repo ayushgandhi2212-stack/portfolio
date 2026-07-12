@@ -1,14 +1,29 @@
-# 💼 portfolio-website
+# 💼 Portfolio Website
 
-Personal portfolio website showcasing my projects and skills.
+A responsive personal portfolio website developed to showcase my projects, technical skills, education, and contact information.
 
 ## 🚀 Live Demo
-https://ayushgandhi2212-stack.github.io/portfolio/
+https://ayushgandhi-portfolio.netlify.app/
 
-## 🛠 Tech Stack
-HTML, CSS, JavaScript
+## 🛠️ Tech Stack
+- HTML5
+- CSS3
+- JavaScript
 
-## 📂 Projects
-- Daily Expenses Record Book
+## ✨ Features
+- Responsive Design
+- About Me Section
+- Skills Section
+- Projects Showcase
+- Contact Information
+
+## 📂 Featured Projects
 - Hiring Management System
-- E-Commerce Website
+- Physio Clinic Management System
+- Family Vault
+
+## 👨‍💻 Author
+Ayush Gandhi
+
+LinkedIn:
+https://www.linkedin.com/in/ayushgandhiii
