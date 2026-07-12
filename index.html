@@ -1,138 +1,417 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ayush Gandhi | Portfolio</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ayush Gandhi | Portfolio</title>
 
-<!-- Icons -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+<!-- ================= NAVBAR ================= -->
 
+<nav class="navbar">
 
-<header class="hero">
-  <div class="hero-content">
-
-    <img src="profile.jpeg" alt="Ayush Gandhi" class="profile-img">
-
-    <h4>Hello, I'm</h4>
-
-    <h1>Ayush Gandhi</h1>
-
-    <p class="tagline">
-      MCA Student | ASP.NET MVC | .NET | PHP Developer
-    </p>
-
-    <p class="hero-description">
-      Passionate about building modern web applications using ASP.NET MVC, C#, PHP and SQL Server. Currently looking for a .NET / PHP Developer Internship to gain real-world experience.
-    </p>
-
-    <div class="hero-buttons">
-      <a href="resume.pdf" download class="btn">
-        <i class="fa-solid fa-download"></i> Download Resume
-      </a>
-
-      <a href="#contact" class="btn secondary">
-        <i class="fa-solid fa-envelope"></i> Contact Me
-      </a>
+    <div class="logo">
+        Ayush Gandhi
     </div>
 
-    <div class="hero-social">
+    <ul class="nav-links">
 
-      <a href="https://github.com/ayushgandhi2212-stack" target="_blank">
-        <i class="fab fa-github"></i>
-      </a>
+        <li><a href="#home">Home</a></li>
 
-      <a href="https://www.linkedin.com/in/ayushgandhiii" target="_blank">
-        <i class="fab fa-linkedin"></i>
-      </a>
+        <li><a href="#about">About</a></li>
 
-      <a href="mailto:ayushgandhi2212@gmail.com">
-        <i class="fas fa-envelope"></i>
-      </a>
+        <li><a href="#skills">Skills</a></li>
 
-    </div>
+        <li><a href="#projects">Projects</a></li>
 
-  </div>
-</header>
+        <li><a href="#education">Education</a></li>
+
+        <li><a href="#contact">Contact</a></li>
+
+    </ul>
+
+</nav>
+
+
+<!-- ================= HERO ================= -->
+
+<section id="home" class="hero">
+
+<div class="hero-left">
+
+<img src="assets/profile.jpeg" class="profile">
+
+</div>
+
+<div class="hero-right">
+
+<p class="hello">
+👋 Hello, I'm
+</p>
+
+<h1>
+Ayush Gandhi
+</h1>
+
+<h2 id="typing"></h2>
+
+<p>
+
+Passionate about building modern web applications using
+ASP.NET MVC,
+.NET,
+C#,
+PHP,
+SQL Server
+and JavaScript.
+
+</p>
+
+<div class="buttons">
+
+<a href="assets/resume.pdf" download>
+
+Download Resume
+
+</a>
+
+<a href="#contact">
+
+Hire Me
+
+</a>
+
+</div>
+
+<div class="social">
+
+<a href="https://github.com/ayushgandhi2212-stack">
+
+<i class="fab fa-github"></i>
+
+</a>
+
+<a href="https://linkedin.com/in/ayushgandhiii">
+
+<i class="fab fa-linkedin"></i>
+
+</a>
+
+<a href="mailto:ayushgandhi2212@gmail.com">
+
+<i class="fa-solid fa-envelope"></i>
+
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
 
 <section id="about">
-  <h2>About Me</h2>
-  <p>
+
+<h2>
+About Me
+</h2>
+
+<div class="about-card">
+
 <p>
-I am currently pursuing a Master of Computer Applications (MCA) at Parul University. I have hands-on experience in developing web applications using ASP.NET MVC, C#, PHP, SQL Server, MySQL, HTML, CSS, and JavaScript. I enjoy building practical applications and continuously improving my technical skills through real-world projects.
+
+I am currently pursuing a Master of Computer Applications (MCA) at Parul University.
+
+I have hands-on experience in ASP.NET MVC,
+.NET,
+PHP,
+SQL Server,
+HTML,
+CSS,
+JavaScript
+and MySQL.
+
+I enjoy building real-world applications and continuously improving my programming skills.
+
 </p>
-  </p>
+
+</div>
+
 </section>
+<!-- ================= SKILLS ================= -->
 
 <section id="skills">
-  <h2>Skills</h2>
-  <div class="skills-grid">
-    <div class="skill"><i class="fa-brands fa-html5"></i><p>HTML</p></div>
-    <div class="skill"><i class="fa-brands fa-css3-alt"></i><p>CSS</p></div>
-    <div class="skill"><i class="fa-brands fa-js"></i><p>JavaScript</p></div>
-    <div class="skill"><i class="fa-solid fa-code"></i><p>C / C#</p></div>
-    <div class="skill"><i class="fa-brands fa-java"></i><p>Java</p></div>
-    <div class="skill"><i class="fa-brands fa-php"></i><p>PHP</p></div>
-    <div class="skill"><i class="fa-solid fa-database"></i><p>MySQL</p></div>
-  </div>
+
+    <h2 class="section-title">Tech Stack</h2>
+
+    <div class="skills-slider">
+
+        <div class="skills-track">
+
+            <div class="skill"><i class="fa-brands fa-html5"></i> HTML5</div>
+            <div class="skill"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+            <div class="skill"><i class="fa-brands fa-js"></i> JavaScript</div>
+            <div class="skill"><i class="fa-solid fa-code"></i> C</div>
+            <div class="skill"><i class="fa-solid fa-code"></i> C#</div>
+            <div class="skill"><i class="fa-brands fa-java"></i> Java</div>
+            <div class="skill"><i class="fa-brands fa-php"></i> PHP</div>
+            <div class="skill"><i class="fa-solid fa-database"></i> SQL Server</div>
+            <div class="skill"><i class="fa-solid fa-database"></i> MySQL</div>
+            <div class="skill"><i class="fa-brands fa-git-alt"></i> Git</div>
+            <div class="skill"><i class="fa-brands fa-github"></i> GitHub</div>
+            <div class="skill"><i class="fa-solid fa-laptop-code"></i> ASP.NET MVC</div>
+            <div class="skill"><i class="fa-solid fa-laptop-code"></i> ASP.NET Core</div>
+
+            <!-- Duplicate for Infinite Scroll -->
+
+            <div class="skill"><i class="fa-brands fa-html5"></i> HTML5</div>
+            <div class="skill"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+            <div class="skill"><i class="fa-brands fa-js"></i> JavaScript</div>
+            <div class="skill"><i class="fa-solid fa-code"></i> C</div>
+            <div class="skill"><i class="fa-solid fa-code"></i> C#</div>
+            <div class="skill"><i class="fa-brands fa-java"></i> Java</div>
+            <div class="skill"><i class="fa-brands fa-php"></i> PHP</div>
+            <div class="skill"><i class="fa-solid fa-database"></i> SQL Server</div>
+            <div class="skill"><i class="fa-solid fa-database"></i> MySQL</div>
+            <div class="skill"><i class="fa-brands fa-git-alt"></i> Git</div>
+            <div class="skill"><i class="fa-brands fa-github"></i> GitHub</div>
+            <div class="skill"><i class="fa-solid fa-laptop-code"></i> ASP.NET MVC</div>
+            <div class="skill"><i class="fa-solid fa-laptop-code"></i> ASP.NET Core</div>
+
+        </div>
+
+    </div>
+
 </section>
+
+<!-- ================= PROJECTS ================= -->
 
 <section id="projects">
-  <h2>Projects</h2>
 
-  <div class="project-card">
-    <h3>Portfolio Website</h3>
-    <p>Responsive personal portfolio using HTML, CSS, and JavaScript.</p>
-  </div>
+    <h2 class="section-title">Projects</h2>
 
+    <div class="projects-grid">
 
+        <div class="project-card">
 
-  <div class="project-card">
-    <h3>Hiring Management System</h3>
-    <p>
-      Built a web-based system using HTML, CSS, JavaScript, MySQL, and .NET to
-      manage recruitment processes, including job postings and candidate data.
-    </p>
-  </div>
+            <h3>Hiring Management System</h3>
 
+            <p>
+                Developed a web-based recruitment system using
+                ASP.NET MVC, C#, SQL Server, HTML, CSS and JavaScript.
+            </p>
 
+            <div class="tech">
+                ASP.NET MVC • C# • SQL Server
+            </div>
+
+            <div class="project-buttons">
+
+                <a href="#">GitHub</a>
+
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>Physio Clinic Management System</h3>
+
+            <p>
+                Developed a clinic management system using PHP,
+                MySQL, Bootstrap and JavaScript with appointment
+                booking and admin dashboard.
+            </p>
+
+            <div class="tech">
+                PHP • MySQL • Bootstrap
+            </div>
+
+            <div class="project-buttons">
+
+                <a href="#">GitHub</a>
+
+            </div>
+
+        </div>
+
+        <div class="project-card">
+
+            <h3>Portfolio Website</h3>
+
+            <p>
+                Responsive personal portfolio showcasing projects,
+                technical skills and contact information.
+            </p>
+
+            <div class="tech">
+                HTML • CSS • JavaScript
+            </div>
+
+            <div class="project-buttons">
+
+                <a href="https://ayushgandhi-portfolio.netlify.app/" target="_blank">Live Demo</a>
+
+                <a href="https://github.com/ayushgandhi2212-stack/portfolio-website" target="_blank">GitHub</a>
+
+            </div>
+
+        </div>
+
+    </div>
 
 </section>
+<!-- ================= EDUCATION ================= -->
+
+<section id="education">
+
+    <h2 class="section-title">Education</h2>
+
+    <div class="timeline">
+
+        <div class="timeline-item">
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <h3>Master of Computer Applications (MCA)</h3>
+
+                <span>Parul University | 2025 - 2027</span>
+
+                <p>
+                    Currently pursuing MCA with a specialization in
+                    Software Development and Full Stack Web Development.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="timeline-item">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <h3>Bachelor of Computer Applications (BCA)</h3>
+
+                <span>Parul University | 2022 - 2025</span>
+
+                <p>
+                    Completed BCA with knowledge of programming,
+                    database management and web development.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
 
 <section id="contact">
-  <h2>Contact</h2>
-<p>
-Phone:
-<a href="tel:+917600859050">+91 7600859050</a>
-</p>
-  <p>
-    Email: 
-    <a href="mailto:ayushgandhi2212@gmail.com">
-      ayushgandhi2212@gmail.com
-    </a>
-  </p>
 
-  <!-- Social Icons Row -->
-  <div class="social-row">
-    <a href="mailto:ayushgandhi2212@gmail.com">
-      <i class="fa-solid fa-envelope"></i>
-    </a>
+    <h2 class="section-title">Contact Me</h2>
 
-    <a href="https://www.linkedin.com/in/ayushgandhiii/" target="_blank">
-      <i class="fa-brands fa-linkedin"></i>
-    </a>
+    <div class="contact-container">
 
-    <a href="https://github.com/ayushgandhi2212-stack" target="_blank">
-      <i class="fa-brands fa-github"></i>
-    </a>
-  </div>
+        <div class="contact-info">
+
+            <h3>Let's Connect 🚀</h3>
+
+            <p>
+                I am actively looking for a .NET / PHP Internship.
+                Feel free to contact me.
+            </p>
+
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                ayushgandhi2212@gmail.com
+            </p>
+
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                +91 7600859050
+            </p>
+
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Vadodara, Gujarat, India
+            </p>
+
+        </div>
+
+        <form class="contact-form">
+
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <input type="text" placeholder="Subject">
+
+            <textarea rows="6" placeholder="Your Message"></textarea>
+
+            <button type="submit">
+                Send Message
+            </button>
+
+        </form>
+
+    </div>
 
 </section>
 
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <h2>Ayush Gandhi</h2>
+
+    <div class="footer-social">
+
+        <a href="https://github.com/ayushgandhi2212-stack" target="_blank">
+            <i class="fab fa-github"></i>
+        </a>
+
+        <a href="https://www.linkedin.com/in/ayushgandhiii/" target="_blank">
+            <i class="fab fa-linkedin"></i>
+        </a>
+
+        <a href="mailto:ayushgandhi2212@gmail.com">
+            <i class="fa-solid fa-envelope"></i>
+        </a>
+
+    </div>
+
+    <p>
+        © 2026 Ayush Gandhi. All Rights Reserved.
+    </p>
+
+</footer>
+
+<button id="topBtn">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
 <script src="script.js"></script>
+
 </body>
 </html>
