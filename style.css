@@ -26,6 +26,7 @@ body{
     overflow-x:hidden;
         width:100%;
 
+    position:relative;
 
 }
 html{
@@ -163,6 +164,8 @@ html{
     top:80px;
 
     left:0;
+        pointer-events:none;
+    max-width:100%;
 
 }
 
@@ -185,6 +188,8 @@ html{
     bottom:0;
 
     right:0;
+        pointer-events:none;
+    max-width:100%;
 
 }
 
@@ -1152,4 +1157,48 @@ transition:.4s;
         max-width:100%;
         height:auto;
     }
+}
+@media (max-width:768px){
+
+html,
+body{
+    width:100%;
+    overflow-x:hidden;
+}
+
+.hero{
+    width:100%;
+    overflow:hidden;
+}
+
+.hero-left,
+.hero-right{
+    width:100%;
+}
+
+.profile{
+    width:220px;
+    height:220px;
+}
+
+.buttons{
+    width:100%;
+}
+
+.buttons a{
+    width:100%;
+    text-align:center;
+}
+
+.projects-grid{
+    grid-template-columns:1fr;
+}
+
+.contact-container{
+    grid-template-columns:1fr;
+}
+
+.skills-track{
+    width:max-content;
+}
 }
